@@ -1,0 +1,48 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 200px; 
+    grid-template-rows: repeat( 4,2fr );
+}
+.item{
+    width: 100px;
+    height: 100px;
+}
+.titulo{
+    background-color: lightseagreen;
+    grid-row: 1/1;
+    grid-column: 1/5;
+    text-align: center;
+}
+.rp2{
+    background-color: dimgray;
+    grid-row: 2/2;
+    grid-column: 1/5;
+}
+.rr{
+    margin-left: 1000px;
+    width: 200px;
+    height: 600pxr;
+}
+
+.item2{
+    background-color: rgb(12, 95, 118);
+    grid-row: 3/3;
+    grid-column: 2/4;
+    text-align: center;
+}
+.item3{
+    background-color: darkcyan;
+    grid-row: 3/3;
+    grid-column: 4/5;
+    text-align: center;
+}
+.r{
+    background: rgb(66, 184, 221);
+    width: 100px;
+}
+.r2{
+        background: rgb(66, 184, 221);
+    width: 100px;
+}   
+
