@@ -1,0 +1,42 @@
+h1 {
+   color:blueviolet;
+}
+
+
+p {
+    color:brown ;
+    font-size: 25pt;
+}
+
+
+#primer-parrafo{
+    color:blue;
+    font-size: 20pt; 
+}
+
+
+#segundo-parrafo{
+    /*color: black;*/
+    font-size: 20pt;
+
+}
+
+.encabezado{
+    font-size: 22pt;
+    text-transform: uppercase; 
+}
+
+
+*.warning {
+    color:green;
+}
+
+
+.autor, .fecha, .ubicacion, #segundo-parrafo{
+    text-decoration: underline;
+    color:aqua;
+}
+
+p{
+    font-size: 10000;
+}

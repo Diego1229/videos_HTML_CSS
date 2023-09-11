@@ -1,0 +1,27 @@
+/* estilo para colores*/
+.colores{
+    color:blue
+}
+.color-hexadecimal{
+    font-size: 15px;
+    color: #38182F;
+}
+.color-rbd{
+    color: rgb(30, 88, 15)
+}
+.color-rgba{
+    color:rgba(80, 28, 15, 0.10)
+}
+
+/* fondos*/
+
+.fondo{
+    background-color:darkmagenta ;
+    background-image: url("https://3.bp.blogspot.com/-1MzIJjPbIfA/VG5TmYhjmLI/AAAAAAACY9o/EO4utsuiXXA/s400/paisajes%2Bnaturales%2Bnuevas%2Bfotos%2Blagos%2Bmonta%C3%B1as%2Bflores%2By%2Bbosques%2B(1).jpg") ;
+    background-position: left bottom;
+}
+.fondo2{
+    background-color:darkmagenta ;
+    background-image: url("https://3.bp.blogspot.com/-1MzIJjPbIfA/VG5TmYhjmLI/AAAAAAACY9o/EO4utsuiXXA/s400/paisajes%2Bnaturales%2Bnuevas%2Bfotos%2Blagos%2Bmonta%C3%B1as%2Bflores%2By%2Bbosques%2B(1).jpg") ;
+    background-position: left botto
+}
