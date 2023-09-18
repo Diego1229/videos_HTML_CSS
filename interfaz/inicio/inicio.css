@@ -1,3 +1,9 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     display: grid;
     grid-template-columns: repeat(1,1fr) ;    
@@ -5,14 +11,17 @@
 }        
 .fondo1{
     background-color: #36761C;
-    height: 100px;
-    width: 100%;
-
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100; 
+    height: 100vx;
+    
 }
 .titulo{
     position: relative;
     top: 2cqh;
-    text-align: center;
     transform: scale(1.8);
     font-family:  'Courier New', Courier, monospace     
     
@@ -38,12 +47,16 @@ border-radius: 5px;
 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 padding: 15px;
 width: 580px;
-height: 400px;
-position: absolute;
-left: 150px;
-top: 220px;
-
+max-height: 580px;
+margin: 0 auto;
+position: absolute  ;
+top: 5;
+left: 20px;
 }
+
+
+
+
 .formulario_registro{
     background-color: #ffff;
     border: 1px solid #ccc;

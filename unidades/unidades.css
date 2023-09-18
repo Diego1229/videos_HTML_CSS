@@ -1,0 +1,19 @@
+.esenario{
+    border: 1px solid #333 ;
+    padding: 19px;
+}
+.esenario-1{
+    font-size: 32px;
+}
+
+.esenario-2{
+    font-size: 16px;
+}
+.em{
+    font-size: 2em;
+ 
+}    
+.rem{
+    font-size: 2rem;
+
+}
